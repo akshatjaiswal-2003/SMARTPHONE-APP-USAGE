@@ -22,7 +22,7 @@ df.columns = (
     .str.replace("(", "", regex=False)
     .str.replace(")", "", regex=False)
 )
-
+# Print
 print("\nColumns in Dataset:")
 for col in df.columns:
     print(col)
