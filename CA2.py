@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import (accuracy_score,classification_report,confusion_matrix,ConfusionMatrixDisplay)
 
-file_path = r"C:\Users\khush\Downloads\mobile_usage_survey_dataset_5000.csv"
+file_path = r"mobile_usage_survey_dataset_5000.csv"
 df = pd.read_csv(file_path)
 
 print("Dataset Loaded Successfully")
